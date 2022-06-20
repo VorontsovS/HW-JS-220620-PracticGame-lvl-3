@@ -58,14 +58,14 @@ elIdOkField.addEventListener('click', () => {
 })
 
 let numberObstacle = 0;
-let obsX1 = 0;
-let obsY1 = 0;
-let obsX2 = 0;
-let obsY2 = 0;
-let obsX3 = 0;
-let obsY3 = 0;
-let obsX4 = 0;
-let obsY4 = 0;
+let obsX1 = -50;
+let obsY1 = -50;
+let obsX2 = -50;
+let obsY2 = -50;
+let obsX3 = -50;
+let obsY3 = -50;
+let obsX4 = -50;
+let obsY4 = -50;
 
 elNumberObstacle.addEventListener('change', () => {
     numberObstacle = Number(elNumberObstacle.value);
